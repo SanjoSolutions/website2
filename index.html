@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <style>
+      body {
+        min-height: 100vh;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      h1, h2 {
+        font-family: sans-serif;
+      }
+
+      h1 {
+        line-height: 1em;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        margin-bottom: 0.25rem;
+      }
+
+      p {
+        line-height: 1.5rem;
+      }
+
+      h1 + h2 {
+        margin-top: 0;
+      }
+
+      h1 + p {
+        margin-top: 0;
+      }
+
+      h2 + p {
+        margin-top: 0;
+      }
+
+      .header {
+        background-color: #2e3dab;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        color: white;
+        height: 4rem;
+        display: flex;
+        overflow: hidden;
+      }
+
+      .header ol {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header ol li {
+        display: flex;
+      }
+
+      .header ol li a, .header ol li div {
+        display: flex;
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        padding: 0 1rem;
+        font-family: sans-serif;
+        user-select: none;
+      }
+
+      .header ol li a:hover {
+        background-color: #6879f7;
+      }
+
+      .main {
+        padding: 0.5rem;
+        flex: 1 1 auto;
+      }
+
+      .main > h1:first-child {
+        margin-top: 0;
+      }
+
+      .footer {
+        background-color: #68ab3f;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        box-sizing: border-box;
+        color: white;
+        height: 4rem;
+        padding: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <ol>
+        <li>
+          <div>
+            <strong>Home</strong>
+          </div>
+        </li>
+        <li>
+          <a href="#">
+            Services
+          </a>
+        </li>
+      </ol>
+    </header>
+
+    <main class="main">
+      <h1>Test</h1>
+      <h2>Test 2</h2>
+      <p>
+        Lorem ipsum...<br>
+        Lorem ipsum...
+      </p>
+      <p>Lorem ipsum...</p>
+      <p>Lorem ipsum...</p>
+      <p>Lorem ipsum...</p>
+      <p>Lorem ipsum...</p>
+      <p>Hallo</p>
+      <p>*thumbsup*</p>
+    </main>
+
+    <footer class="footer">
+      <3
+    </footer>
+  </body>
+</html>
